@@ -1,4 +1,6 @@
-Subir container do Redis:
+# Projeto nodejs com Redis (mentoria)
+
+1. Subir container do Redis:
 ```docker
   docker run --name redis-cache -p 6379:6379 -d redis
 ```
@@ -7,12 +9,12 @@ ou
   redis/run.sh
 ```
 
-Rodar o projeto em desenv:
+2. Rodar o projeto em desenv:
 ```cmd
   npm run start:dev
 ```
 
-Rodar o projeto em prod:
+3. Rodar o projeto em prod:
 ```cmd
   npm run start
 ```
